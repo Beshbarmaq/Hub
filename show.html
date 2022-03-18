@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Review Hub</title> 
+  <link rel="short cut icon" href="images/favicon.jpg">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href= "css/ShowDesign.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .scale {
+    transition: 1.0s; 
+   }
+   .scale:hover {
+    transform: scale(1.2); 
+   }
+   .bup {
+    display: inline-block;
+    overflow: hidden; 
+   }
+   .bup img {
+    transition: 1s; 
+    display: block; 
+   }
+   .bup img:hover {
+    transform: scale(1.2); 
+   }
+</style>
+</head>
+<!--ТУТ НАВБАР-->
+<body>
+  <nav class="navbar navbar-inverse" style = "position:fixed; width:100%; top: 0;">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="new_review.html"><img class="img-responsive" src="images/sdasdasd.png" alt="Error" width="110" height="100" ></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li><a href="show.html">TV Shows</a></li>
+          <li><a href="movies.html">Movies</a></li>
+          <li><a href="Index.html">News</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+<!--ТУТ КОРОЧЕ ТИПО ВЕРХНЯЯ ЧАСТЬ-->
+<div class = "full_background">
+<div class = "background">
+  <div class = "blur"></div>
+<div class="container-fluid bg-1">    
+<div class="container-fluid bg-3 text-center text-heading2"> 
+  <br>
+  <br>     
+<h1 onclick= "zvuk()">ᴀᴄᴛᴜᴀʟ sʜᴏᴡs</h1><br>
+<div class="container text-center text-heading2" >
+<h1 class="h3" style="margin-top: 20px; margin-bottom: 5px;">ᴛʜᴇ ʙᴇsᴛ ᴏꜰ ᴀɴɪᴍᴇ</h1>
+  <h2 class="h4" style="margin-top: 0px; margin-bottom: 20px;"></h2>  
+  <div id="carousel" class="carousel slide block" data-ride="carousel" style="display: inline-block;">
+      <ol class="carousel-indicators">
+          <li data-target="#carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel" data-slide-to="1"></li>
+          <li data-target="#carousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner bup">
+          <div class="item active" onmouseover= "YN()" onmouseout= "YNS()" onmouseover= "YNV()">
+              <video poster="images/Your_name640x360.jpeg" id="1.1" src="videos/YNV.mp4" width = 640px ></video>
+              <div class="carousel-caption">
+                  <h3>ㄚㄖㄩ尺 几卂爪乇</h3>
+                  <p>It depicts a high school boy in Tokyo and a high school girl in the Japanese countryside who suddenly and inexplicably begin to swap bodies..</p>
+              </div>
+          </div>
+          <div class="item" onmouseover= "DS()" onmouseout= "DSS()" onmouseover= "DSV()">
+            <video poster="images/Demon_slayer640x360.jpg" id="1.2" src="videos/DMV.mp4" width = 640px ></video>
+              <div class="carousel-caption">
+                  <h3>ᗪ乇爪ㄖ几 丂ㄥ卂ㄚ乇尺</h3>
+                  <p>It follows teenage Tanjiro Kamado, who strives to become a demon slayer after his family was slaughtered and his younger sister Nezuko turned into a demon.</p>
+              </div>
+          </div>
+          <div class="item" onmouseover= "JK()" onmouseout= "JKS()" >
+            <video poster="images/Jujutsu Kaisen640x360.jpg" id="1.3" src="videos/JKV.mp4" width = 640px ></video>
+              <div class="carousel-caption">
+                  <h3>ﾌㄩﾌㄩㄒ丂ㄩ Ҝ卂丨丂乇几</h3>
+                  <p>The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers in order to kill a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host. </p>
+              </div>
+          </div>
+      </div>
+      <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span></a>
+      <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+      </a>
+  </div>
+</div>
+</div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+</div>
+<br>
+<br>
+<br>
+
+
+<!--ТУТ КИНОБЛОКИ-->
+<div class="container-fluid bg-3 text-center">  
+  <div class="row text-heading">
+    <div class="col-sm-3" >
+      <h3 class = "className"><p>𝙰𝚛𝚌𝚊𝚗𝚎</p></h3>
+       <a href = "arcane.html"><img src="images/Arcane1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+        <h3 class = "className"><p>𝚁𝚒𝚌𝚔 𝚊𝚗𝚍 𝙼𝚘𝚛𝚝𝚢</p></h3>
+         <a href = "rickmorty.html"><img src="images/RickMorty1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+        <h3 class = "className"><p>𝚂𝚑𝚊𝚖𝚎𝚕𝚎𝚜𝚜</p></h3>
+        <a href = "https://www.youtube.com/watch?v=t5bQ71skJ04"><img src="images/Shameless1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    
+    <div class="col-sm-3">
+        <h3 class = "className"><p>𝚂𝚑𝚎𝚛𝚕𝚘𝚌𝚔</p></h3>
+        <a href = "https://youtu.be/ArdWL2uKf7k"><img src="images/Sherlock1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row text-heading">
+    <div class="col-sm-3">
+        <h3 class = "className"><p>𝙻𝚘𝚟𝚎 𝙳𝚎𝚊𝚝𝚑 𝚁𝚘𝚋𝚘𝚝𝚜</p></h3>
+        <a href = "https://www.youtube.com/watch?v=wUFwunMKa4E"><img src="images/LDRP1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+        <h3 class = "className"><p>𝙻𝚘𝚔𝚒</p></h3>
+        <a href = "https://www.youtube.com/watch?v=nW948Va-l10"><img src="images/Loki1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3"> 
+        <h3 class = "className"><p>𝚆𝚊𝚗𝚍𝚊 𝚅𝚒𝚜𝚒𝚘𝚗</p></h3>
+        <a href = "https://www.youtube.com/watch?v=sj9J2ecsSpo"><img src="images/WandaVision1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    <div class="col-sm-3">
+        <h3 class = "className"><p>𝚃𝚑𝚎 𝚆𝚒𝚝𝚌𝚑𝚎𝚛</p></h3>
+        <a href = "https://www.youtube.com/watch?v=ndl1W4ltcmg"><img src="images/TheWitcher1200x1600.jpg" class="scale" style="width:80%" alt="Image"></a>
+    </div>
+    </div>
+  </div>
+<br>
+<br>
+</div>
+
+
+<!--ТУТ ФУТЕР-->
+<footer class="page-footer font-small cyan darken-3">
+    <div class="container"> 
+      <div class="row">
+        <div class="col-md-12 py-5">
+          <div class="mb-5 flex-center">
+  
+            <!-- Facebook -->
+            <a class="fb-ic">
+              <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <img src="images/premium-icon-facebook-4494464.png"style="width:4%">
+            </a>
+            <!-- Telegram -->
+            <a class="tg-ic">
+              <i class="fab fa-telegram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <a href="https://t.me/+Q-wD5rDl8j9kYWRi"><img src="images/premium-icon-telegram-4701496.png"style="width:4%" class = "qwerty"></a>
+            </a>
+            <!--Instagram-->
+            <a class="ins-ic">
+              <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+              <a href="https://www.instagram.com/Beshbarmaq/"><img src="images/free-icon-instagram-1384015.png"style="width:4% "></a>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3 qwerty">© 2022 Copyright:
+      <a> Review Hub Team</a>
+    </div>
+    </footer>
+</div>
+</div>
+<!--ТУТ ФУНКЦИИ И ВСЯКОЕ ТАКОЕ-->
+<audio id="sound" src="sound/UwU - SOUND EFFECT (256  kbps).mp3"></audio>
+<audio id="1" src="sound/YourName.mp3"></audio>
+<audio id="2" src="sound/DemonSlayer.mp3"></audio>
+<audio id="3" src="sound/Jujutsu Kaisen.mp3"></audio>
+<script src="show.js"></script>
+</body>
+</html>
+

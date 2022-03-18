@@ -1,0 +1,40 @@
+.navbar, .navbar-inverse{
+  z-index:1;
+}
+.input-group {
+  margin-top: 10px;
+  width: 500px;
+}
+    footer {
+      background-color:rgb(46, 46, 46) ;
+      padding: 25px;
+    }
+.block{
+  height: 360px;
+  box-shadow: 0 0 15px #000;
+}
+
+.background {
+  background-image: url(https://media.kg-portal.ru/images/kiminonawa/kiminonawa_18.jpg);
+  background-size: cover;
+
+}
+.blur {
+  background: rgba(255, 255, 255, 0.062); 
+  backdrop-filter: blur(8px); 
+}
+.multiple-filters {
+  backdrop-filter: blur(20px) saturate(120%) contrast(200%);
+}
+.full_background{
+  background-color: black;
+}
+.text-heading{
+  color: white
+}
+.text-heading2{
+  color: rgb(255, 255, 255)
+}
+.qwerty{
+  color:rgb(255, 255, 255)
+}

@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Suez+One&display=swap');
+
+*{  
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.bg-1 {
+    background-color: black;
+    color: black;
+  }
+  .navbar {
+    margin-top: 0;
+    margin-bottom: 50px;
+    border-radius: 0;
+  }
+  .input-group {
+    margin-top: 10px;
+    width: 500px;
+  }
+      footer {
+        background-color:rgb(46, 46, 46) ;
+        padding: 25px;
+      }
+
+
+    @media only screen and (max-width: 1200px) {
+      /* For mobile phones: */
+      [class*="col-"] {
+        width: 100%;
+      }
+    }
+
+
+body, html{
+    width: 100%;
+    height: 150%;
+}
+
+body{
+    background-image:url(https://images.wallpapersden.com/image/download/jinx-4k-art-league-of-legends_bWVuaWmUmZqaraWkpJRnamtlrWZlZ2k.jpg);
+    background-blend-mode: multiply;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position-y: center;
+}
+.block{
+    background-color: rgb(48, 42, 37);
+    height: 430px;
+    width: 660px;
+    box-shadow: 0 0 15px #000;
+  }
+ 
+
+#main {
+    position: relative;
+    width:  1000px;
+    margin-top: 57px;
+    margin-left: 150px;
+    float: left;;
+}
+div {
+    display: block;
+}
+#container {
+    position: relative;
+    margin-top: 2px !important;
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgb(0, 0, 0);
+    cursor: default;
+}
+body {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+#face {
+    background-color: #181818;
+    margin: 0 3px 0 2px;
+    position: relative;
+    top: -49px;
+    border: 1px solid #181818;
+}
+div {
+    display: block;
+}
+#container {
+    position: relative;
+    margin-top: 2px !important;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #111;
+    cursor: default;
+}
+body {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+div {
+    display: block;
+}
+#container {
+    position: relative;
+    margin-top: 2px!important;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #111;
+    cursor: default;
+}
+body {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+.t-img {
+    margin: -1px 8px 8px 8px;
+    float: left;
+    border: 2px solid #252525;
+}
+img {
+    border: none;
+}
+#container {
+    position: relative;
+    margin-top: 2px !important;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #111;
+    cursor: default;
+}
+body {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+
+.t-row {
+    margin-top: 9px;
+    width: 413px;
+    margin-left: 221px;
+    min-height: 315px;
+}
+div {
+    display: block;
+}
+#container {
+    position: relative;
+    margin-top: 2px !important;
+    margin: 0 auto;
+    width: 960px;
+    background-color: #111;
+    cursor: default;
+}
+body {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+div {
+    display: block;
+}
+#container {
+    position: relative;
+    margin-top: 2px !important;
+    margin: 0 auto;
+    width: 960px;
+    background-color: rgb(49, 49, 49);
+    cursor: default;
+}
+body {
+    margin: 0;
+    padding: 250px 0 0 0;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #a5a5a5;
+}
+html {
+    background-color: #000;
+    min-width: 960px;
+    -webkit-text-size-adjust: none;
+}
+video {
+    width: 600px;
+    height: 400px;  
+}
+.qwerty{
+    color:rgb(255, 255, 255)
+  }
+  .text-heading{
+    color: white
+  }
+  .text-heading2{
+    color: rgb(255, 255, 255)
+  }
